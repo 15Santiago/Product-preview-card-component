@@ -1,0 +1,28 @@
+main {
+    height: 100vh;
+    padding-top: 10%;
+}
+
+main .product-card-container {
+    width: 80%;
+    height: auto;
+    background: var(--White);
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+}
+
+.product-card-container .product-img-container {
+    height: 335px;
+    width: 300px;
+}
+
+.product-img-container img {
+    height: 100%;
+    border-radius: 20px;
+}
+
+.product-card-info-container .product-card__name {
+    font-size: 35px;
+}

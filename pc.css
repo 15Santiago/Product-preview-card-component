@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+main {
+    height: 100vh;
+    padding-top: 8%;
+}
+
+main .product-card-container {
+    width: 50%;
+    height: 410px;
+}
+
+.product-card-container .product-img-container {
+    height: 100%;
+    width: 350px;
+}
+
+.product-card-container .product-card__name {
+    margin-top: 30px;
+}
+
+.product-card-container .product-card__info {
+    margin-top: 30px;
+}
+
+.product-card__Prices {
+    margin-top: 30px;
+}
+
+.product-card__button-container .button__add-to-cart {
+    margin-top: 30px;
+}
